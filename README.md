@@ -1,2 +1,26 @@
-# Monad-Wallet-Onchain-data-gardener
-I'm building a telegram bot that gives users all the details about their wallet activities on Monad chain such as wallet  Mon balance, total wallet transactions,list of all tokens owned by a wallet  and their respective balance,same features for NFTs owned a wallet with additional features
+# 👋 Hi, I’m Eccentric Healer!  
+
+### 🌱 I’m currently learning:  
+- Python  
+
+### 🛠️ My Project:  
+**Monad Chain Telegram Bot**  
+A bot that fetches wallet details on Monad Chain, including:  
+- Mon balance  
+- Total transactions  
+- List of owned tokens + balances  
+- NFT details  
+
+*(Work in progress—stay tuned!)*  
+
+### 📫 How to reach me:  
+- Discord: `eccentric.healer`  
+- Email: `healercpp@gmail.com`  
+
+### ⚡ Fun fact:  
+I don’t have one... yet!  
+
+---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Eccentrichealerbuilds&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Eccentrichealerbuilds&layout=compact&theme=radical)  
