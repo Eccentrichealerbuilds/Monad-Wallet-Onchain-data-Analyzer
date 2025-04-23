@@ -11,8 +11,6 @@ A bot that fetches wallet details on Monad Chain, including:
 - List of owned tokens + balances  
 - NFT details  
 
-*(Work in progress—stay tuned!)*  
-
 ### 📫 How to reach me:  
 - Discord: `eccentric.healer`  
 - Email: `healercpp@gmail.com`
