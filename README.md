@@ -19,7 +19,7 @@ A bot that fetches wallet details on Monad Chain, including:
 - Telegram: `@eccentric_healer`
 
 ### ⚡ Fun fact:  
-sucks there's to rule!  
+sucks there's no rule/guideline to avoid death!  
 
 ---
 
