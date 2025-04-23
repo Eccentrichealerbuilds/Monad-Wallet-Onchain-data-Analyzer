@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Eccentric Healer!  
 
 ### 🌱 I’m a beginner learning about:  
-- WEB3  
+- PYTHON & WEB3 Infrastructure 
 
 ### 🛠️ My Project:  
 **Monad Chain Telegram Bot**  
