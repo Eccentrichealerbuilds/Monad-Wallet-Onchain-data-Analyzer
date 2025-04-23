@@ -130,5 +130,5 @@ MONALYZER
 
 * **Eccentric Healer**
 * Telegram: `@eccentric_healer`
-* Twitter: `@eccentric.healer`
+* Twitter: `@eccentrichealer`
 * Discord: `eccentric.healer`
