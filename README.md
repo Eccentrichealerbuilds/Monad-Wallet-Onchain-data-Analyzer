@@ -101,29 +101,6 @@ Interact with the bot on Telegram. Use the `/commands` command within the bot to
 * `/uniquecontracts <address>` - Scans all txs for unique interactions (can be slow).
 * `/commands` - Displays this list of available commands.
 
-## Project Structure
-
-
-├── api_clients/      # Functions for interacting with external APIs (ME, Zerion, RPC)
-│   ├── init.py
-│   ├── fetch_.py
-│   └── ...
-├── formatters/       # Functions for formatting API data into displayable text
-│   ├── init.py
-│   ├── fmt_.py
-│   └── ...
-├── handlers/         # Command and Callback Query handlers (bot logic)
-│   ├── init.py
-│   ├── command_.py
-│   ├── callback_.py
-│   └── ...
-├── utils/            # Utility functions (if any, e.g., wallet_storage if kept)
-│   └── init.py
-├── .env              # Environment variables (API Keys, RPC URL) - !! Add to .gitignore !!
-├── bot_persistence.pkl # Bot data storage (user/chat/bot data) - !! Add to .gitignore !!
-├── config.py         # Loads configuration from .env, defines constants
-├── main.py           # Main application entry point (sets up bot, registers handlers)
-└── requirements.txt  # Python package dependencies
 
 ## Developer
 
