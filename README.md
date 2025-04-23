@@ -100,7 +100,31 @@ Interact with the bot on Telegram. Use the `/commands` command within the bot to
 * `/transactioncount <address>` - Shows Nonce (outgoing tx count).
 * `/uniquecontracts <address>` - Scans all txs for unique interactions (can be slow).
 * `/commands` - Displays this list of available commands.
+## Project Structure
 
+```
+MONALYZER 
+├── api_clients/
+│   ├── __init__.py
+│   ├── fetch_*.py
+│   └── ...
+├── formatters/
+│   ├── __init__.py
+│   ├── fmt_*.py
+│   └── ...
+├── handlers/
+│   ├── __init__.py
+│   ├── command_*.py
+│   ├── callback_*.py
+│   └── ...
+├── utils/
+│   └── __init__.py
+├── .env
+├── bot_persistence.pkl
+├── config.py
+├── main.py
+└── requirements.txt
+```
 
 ## Developer
 
