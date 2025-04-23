@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Eccentric Healer!  
 
-### 🌱 I’m currently learning:  
-- Python  
+### 🌱 I’m a beginner learning about:  
+- WEB3  
 
 ### 🛠️ My Project:  
 **Monad Chain Telegram Bot**  
@@ -15,7 +15,8 @@ A bot that fetches wallet details on Monad Chain, including:
 
 ### 📫 How to reach me:  
 - Discord: `eccentric.healer`  
-- Email: `healercpp@gmail.com`  
+- Email: `healercpp@gmail.com`
+- Telegram: `@eccentric_healer`
 
 ### ⚡ Fun fact:  
 sucks there's to rule!  
