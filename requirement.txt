@@ -1,0 +1,4 @@
+python-dotenv
+python-telegram-bot[ext]>=20.0
+requests
+web3>=6.0
