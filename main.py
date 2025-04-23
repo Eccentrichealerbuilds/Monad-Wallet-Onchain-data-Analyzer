@@ -1,17 +1,14 @@
-# main.py (Adjusted Handler Groups)
 import logging
 import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()
-
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, PicklePersistence, MessageHandler, filters
 from telegram.constants import ChatType
 import config
 
-# --- Import Handlers ---
 # Commands
 from handlers.commands import start_command, balance_command, nfts_command
 from handlers.command_top_collections import top_collections_command
@@ -33,7 +30,6 @@ from handlers.callback_tokens import token_balance_more_callback
 from handlers.rate_limiter import check_rate_limit
 # Error Handler
 from handlers.error import error_handler
-# --- End Handler Imports ---
 
 # --- Logging Setup ---
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.DEBUG)
@@ -54,7 +50,6 @@ def main() -> None:
     logger.info("Starting bot application...")
     application = ( Application.builder() .token(config.BOT_TOKEN) .persistence(persistence) .build() )
 
-    # --- Register Handlers with Adjusted Groups ---
     # GROUP 0: General handlers like Rate Limiter
     application.add_handler(MessageHandler(filters.COMMAND, check_rate_limit), group=0)
 
@@ -85,8 +80,6 @@ def main() -> None:
 
     # Error Handler (Runs in its own context)
     application.add_error_handler(error_handler)
-    # --- End Handler Registration ---
-
     logger.info("Bot polling started...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
     logger.info("Bot polling stopped.")
