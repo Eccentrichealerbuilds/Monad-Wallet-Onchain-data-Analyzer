@@ -5,6 +5,7 @@
 This comprehensive Telegram bot serves as an interactive companion for users engaging with the Monad Testnet ecosystem. Developed by **Eccentric Healer**, it provides real-time insights into wallet assets, NFT portfolio details, market trends, and user activity.
 
 The bot is built with Python using the `python-telegram-bot` library and leverages direct Monad RPC interaction (`web3.py`) along with integrations for NFT/market data (Magic Eden RTPv3 API) and detailed wallet positions (Zerion v1 API). It features a modular codebase, asynchronous operation, data persistence, and command rate limiting.
+https://docs.google.com/document/d/1-G7b9TmIV3ztbxRpitjd-AsuURaYoiMV/edit?usp=drivesdk&ouid=104809867151114974374&rtpof=true&sd=true
 
 ## Features
 
